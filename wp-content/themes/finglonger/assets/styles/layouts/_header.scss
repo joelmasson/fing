@@ -1,0 +1,127 @@
+.home{
+  .banner{
+    background: $blue-gradient;
+    box-shadow: 0 0 10px #555;
+    .mega-logo{
+      width: 330px;
+      padding: 50px;
+    }
+    #menu-item-53{
+      display: none;
+      a{
+        background-image: url(../images/finglonger-logo-colour.svg);
+        width: 142px;
+        height: 142px;
+      }
+    }
+    &.has-scrolled{
+      .menu-main-menu-container{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: $blue;
+        z-index: 10;
+        width: 100%;
+        #menu-item-53{
+          display: inline-block;
+        }
+      }
+      .current_page_item{
+        display: inline-block;
+      }
+    }
+    .home-header{
+      h1,h2,h3,h4,h5,h6{
+        color:$white;
+      }
+    }
+  }
+  .nav{
+    border-top: 1px solid $white;
+    .current_page_item{
+      display: none;
+    }
+    a{
+      color: $white;
+    }
+  }
+}
+.single,
+.blog{
+  .menu-main-menu-container{
+    background-color: $white;
+    padding-top: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    .nav{
+      border-bottom: 1px solid $blue-light;
+      padding: 20px 0;
+      li {
+        &.current-menu-item{
+          color: $blue
+        }
+        a{
+          color: #4A4A4A;
+          font-size: 20px;
+        }
+      }
+      #menu-item-53{
+        a{
+          background-image: url(../images/finglonger-logo-shadow.svg);
+          width: 142px;
+          height: 142px;
+        }
+      }
+    }
+  }
+}
+.docs-header{
+  background-color: $blue;
+  border-bottom: 17px solid $teal;
+  a{
+    color: #FFF;
+  }
+  .back-string{
+    color: #fff;
+    width: 100%;
+    float: left;
+    text-align: right;
+    padding: 20px 0;
+    border-bottom: 1px solid;
+  }
+  .docs-header-search{
+    padding: 100px 0;
+  }
+}
+.menu-main-menu-container{
+  transition: all 0.5s;
+  .nav{
+    display: block;
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    li{
+      display: inline-block;
+      position: relative;
+      padding: 0 10px;
+      &#menu-item-53{
+        width: 142px;
+        a{
+          position: absolute;
+          left: 0;
+          margin-top: -40px;
+          span{
+            display: none;
+          }
+        }
+      }
+      a {
+        font-size: 20px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

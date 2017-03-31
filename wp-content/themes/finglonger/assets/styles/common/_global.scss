@@ -1,0 +1,47 @@
+.center-text{
+  text-align: center;
+}
+.left-text{
+  text-align: left;
+}
+.right-text{
+  text-align: right;
+}
+.all-caps{
+  text-transform: uppercase;
+}
+.img-responsive{
+  max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6,.btn{
+  font-family: "brandon-grotesque",sans-serif;
+}
+h1{
+	font-size: 50px;
+  font-weight: bold;
+  line-height: 60px;
+}
+h2{
+  color: $blue;
+  margin: 20px 0;
+  padding-top: 50px;
+  font-size: 61px;
+  line-height: 60px;
+}
+h3{
+  font-size: 40px;
+  line-height: 60px;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+.home a{
+  color: $grey;
+  font-size: 20px;
+}
+.home a:hover{
+  color: $blue;
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+#copyright{
+  background: $black;
+  color: $white;
+  p{
+    font-size: 10px;
+    margin-top: 1rem;
+  }
+}
+#contact{
+  background: $teal;
+  color: $white;
+}
+.wpcf7{
+  display: flex;
+  .wpcf7-form{
+    width: 100%;
+    input{
+      width: 100%;
+      padding: 10px;
+      margin-top: 25px;
+      font-size: 20px;
+      line-height: normal;
+      &[type="email"]{
+        border: 1px solid $blue;
+      }
+    }
+  }
+}

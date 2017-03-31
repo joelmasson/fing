@@ -1,0 +1,33 @@
+// Search form
+.search-form {
+  @extend .form-inline;
+  margin: 40px 0;
+}
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+  width: 100%;
+}
+.search-form .search-field {
+  @extend .form-control;
+  width: 100%;
+  padding: 20px 20px 20px 80px;
+	border: 2px solid rgba(147,190,252,0.63);
+	border-radius: 6px;
+	background-color: #FFFFFF;
+  background-image: url(../images/Magnifying_glass_icon.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 10px center;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5), 0 10px 15px 0 rgba(0,0,0,0.18);
+  color: #4A4A4A;
+  font-family: "Gotham HTF";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 21px;
+}
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-secondary;
+  display: none;
+}

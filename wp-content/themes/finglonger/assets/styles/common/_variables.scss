@@ -1,0 +1,17 @@
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+$brand-primary:         #00BED5;
+$blue:                  $brand-primary;
+$blue-top:              #00E3FE;
+$blue-light:            #48ECFE;
+$blue-darker:           #00bed5;
+$white:                 #FFF;
+$black:                 #000;
+$grey:                  #4A4A4A;
+$teal:                  #152C2F;
+
+//Gradient
+$blue-gradient:         linear-gradient(180deg, $blue-top, $blue);
